@@ -1,0 +1,19 @@
+POST http://localhost:8080/api/loans
+Content-Type: application/json
+
+{
+  "bookId": 1,
+  "readerId": 2
+}
+###
+PUT http://localhost:8080/api/loans/1/return
+###
+GET http://localhost:8080/api/loans/reader/1
+###
+GET http://localhost:8080/api/loans/overdue
+###
+GET http://localhost:8080/api/loans/lost
+###
+PUT http://localhost:8080/api/loans/1/renew?days=21
+###
+PUT http://localhost:8080/api/loans/1/lost

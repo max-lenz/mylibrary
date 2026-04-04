@@ -1,0 +1,26 @@
+###
+GET http://localhost:8080/api/readers
+###
+GET http://localhost:8080/api/readers/1
+###
+POST http://localhost:8080/api/readers
+Content-Type: application/json
+
+{
+  "firstName": "James",
+  "lastName": "White",
+  "email": "jimmywhite@gmail.com",
+  "phone": "+1234567895"
+}
+###
+DELETE http://localhost:8080/api/readers/1
+###
+PUT http://localhost:8080/api/readers/1
+Content-Type: application/json
+
+{
+  "firstName": "John",
+  "lastName": "Walker",
+  "email": "profjohn@gmail.com",
+  "phone": "+1234567891"
+}

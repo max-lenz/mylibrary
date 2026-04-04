@@ -1,0 +1,29 @@
+GET http://localhost:8080/api/books
+###
+GET http://localhost:8080/api/books/1
+###
+POST http://localhost:8080/api/books
+Content-Type: application/json
+
+{
+  "title": "All Quiet on the Western Front",
+  "author": "Erich Maria Remarque",
+  "isbn": "9780099532811",
+  "publicationYear": 1929,
+  "totalCopies": 29
+}
+###
+PUT http://localhost:8080/api/books/1
+Content-Type: application/json
+
+{
+  "title": "Three Comrades",
+  "author": "Erich Maria Remarque",
+  "isbn": "9780449912423",
+  "publicationYear": 1936,
+  "totalCopies": 36
+}
+###
+DELETE http://localhost:8080/api/books/1
+###
+GET http://localhost:8080/api/books/search?title=Professor&author=Jon White
