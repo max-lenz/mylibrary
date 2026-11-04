@@ -3,7 +3,7 @@
 A RESTful API service for library database operations: managing books, readers and book issuance.
 Built on Spring Boot 3 with a focus on security, performance profiling and observability.
 
-*Kurzbeschreibung (Deutsch):* REST-API zur Bibliotheksverwaltung (Bücher, Leser, Ausleihen) mit Java 21 und Spring Boot 3. Schwerpunkte: Authentifizierung mit Spring Security/JWT, Datenbankmigration mit Flyway und Monitoring mit Spring Boot Actuator und Prometheus.
+*Kurzbeschreibung (Deutsch):* REST-API zur Bibliotheksverwaltung (Bücher, Leser, Ausleihen) mit Java 21 und Spring Boot 3. Schwerpunkte: Authentifizierung und Rollen mit Spring Security, Datenbankmigration mit Flyway und Monitoring mit Spring Boot Actuator und Prometheus.
 
 ## Tech Stack
 
