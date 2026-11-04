@@ -13,7 +13,7 @@ Built on Spring Boot 3 with a focus on security, performance profiling and obser
 | Data access | Spring Data JPA, Hibernate, JDBC Template, HikariCP |
 | Databases | H2 (in-memory, dev), PostgreSQL (int/prod) |
 | Migrations | Flyway |
-| Security | Spring Security, JWT (jjwt 0.12.6), BCrypt |
+| Security | Spring Security (HTTP Basic), BCrypt |
 | Resiliency and performance | Spring AOP (performance logging), Spring Retry |
 | Observability and logging | Spring Boot Actuator, Micrometer, Prometheus, Logstash Logback Encoder (JSON output) |
 | Build tools | Maven, Lombok, Git Commit ID Plugin |
@@ -41,7 +41,7 @@ Built on Spring Boot 3 with a focus on security, performance profiling and obser
 
 ## Access Control and Roles
 
-The API uses stateless authentication via Spring Security (HTTP Basic / JWT).
+The API uses stateless authentication via Spring Security (HTTP Basic).
 
 | Role | Permissions |
 |---|---|
